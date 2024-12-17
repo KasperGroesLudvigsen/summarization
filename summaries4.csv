@@ -1,0 +1,331 @@
+prompt,response,model,num_tokens_query,num_tokens_prompt
+"[{'content': ""Please write a text of 100-150 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: buy a TV. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","I've been looking at TVs online, and it's so confusing. There are so many different types and sizes. I think we should probably go to Best Buy this weekend and see them in person. They have a good selection there. Yeah, that's a good idea. Maybe we can ask someone there for advice on what size would be best for our living room. We don't want something too big or too small. And what about features? Do we need a smart TV? I think it would be nice to have streaming apps built in. I heard they have some good deals going on right now. It would be great to get a good TV at a discount.  We could even check out that new soundbar they have.  Let's make a day of it, grab lunch at the food court. 
+
+
+**Summary**
+Two people plan to visit Best Buy to look at TVs, seeking advice on size, features, and potentially taking advantage of sales and having lunch. 
+
+",google/gemma-2-27b-it,205,88
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: Beach. Write a verbatim transcript of 250-300 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","Absolutely love the beach, just the sound of the waves crashing is so relaxing. I know, right? Like all your worries just melt away. It's the best place to unplug and recharge. Last summer we went to Myrtle Beach, it was packed though.
+
+Yeah, I'm not a fan of the crowds either. Give me a secluded cove any day. Oh, have you been to that hidden beach in Malibu? The one with the tide pools? It's amazing.
+
+No, I haven't been there but I've heard about it. My cousin went a few years ago, said it was incredible. I'm more of a Lake Michigan person myself. Growing up in the Midwest, that's where we always went.
+
+Ah, the Great Lakes, they have their own charm. It's so peaceful and serene. We used to go to Sleeping Bear Dunes every year. Remember building sandcastles there?
+
+Yes! And searching for Petoskey stones. Those were the days. I miss those summers.
+
+We should definitely plan a beach trip together soon. Maybe somewhere tropical this time. I've always wanted to go to the Maldives.
+
+That sounds amazing. Turquoise water, white sand... sign me up. We could even learn to surf.
+
+I've always wanted to try surfing too. It looks so exhilarating.
+
+We could take lessons together. Imagine, us hanging ten in the Maldives. It would be epic.
+
+**Summary**
+
+The group reminisced about beach vacations, discussed their favorite beaches including Myrtle Beach, Malibu, and Sleeping Bear Dunes, and made plans for a future tropical beach trip to the Maldives. 
+
+
+
+",google/gemma-2-27b-it,344,94
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: crowded bus. Write a verbatim transcript of 350-400 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","It's just awful, you know. You're packed in like sardines, sweating, and nobody wants to move. I swear, sometimes I feel like I'm going to suffocate. And the smells. Don't even get me started on the smells. It's a mix of perfume, body odor, and stale food.
+
+You know what I hate the most? When people take up two seats with their bags. It's just rude. There are plenty of overhead compartments for that stuff. And then you have the people who blast their music without headphones.
+
+I remember one time, I was on this bus going home from work, and it was absolutely packed. I was standing, holding onto a pole for dear life, and this guy next to me kept bumping into me with his oversized backpack. I finally lost it and said something, and he just glared at me. It was so awkward.
+
+I'm telling you, it's a jungle out there. Sometimes I think it would be easier to just walk, even if it takes longer. At least I wouldn't have to deal with the crowds.
+
+Oh, I know what you mean. I take the 42 bus every morning to get to work downtown, and it's always a nightmare. It's like everyone in the city decides to take that bus at the same time. I've even seen people fighting over seats.
+
+Yeah, the 42 is notorious for being crowded. They should really add more buses on that route.
+
+I wish they would just invest in better public transportation in general. It would make everyone's lives so much easier.
+
+Maybe they could create dedicated bus lanes. That might help with the traffic, too. 
+
+And maybe they could have more frequent service during rush hour.
+
+
+**Summary**
+
+The conversation centered on the negative experiences people have on crowded buses, particularly mentioning the 42 bus route in the city, and suggesting improvements to public transportation like dedicated bus lanes and more frequent service.
+
+
+
+",google/gemma-2-27b-it,418,95
+"[{'content': ""Please write a text of 100-150 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: introduce a product. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","So, I wanted to tell you about this new app I found. It's called ""Foodie Find"" and it's basically like Yelp but specifically for finding hidden gem restaurants. You know, those local places that don't have a huge online presence but have amazing food. It uses your location and your preferences, like what type of cuisine you're in the mood for, and then suggests places you might not have heard of before. I tried it last night and found this incredible little Thai place downtown, the pad thai was incredible.  They have a rating system too, but it's based on user reviews and photos, not just stars. It's supposed to be launching in a few weeks, I think they're doing a beta test right now. I signed up for the waitlist, you should too.
+
+**Summary**
+
+Two people discuss a new app called ""Foodie Find"" that helps users discover lesser-known restaurants. 
+
+
+
+",google/gemma-2-27b-it,198,88
+"[{'content': ""Please write a text of 100-150 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: Work. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","I'm so swamped right now. This new project is taking up all my time.  Yeah, it's a big one, lots of moving parts. I wish we had more hands on deck. Speaking of which, did you hear they're finally filling that open position in marketing?  That's great news, maybe things will calm down a bit once they're settled in.  Have you met Sarah yet? She seems really sharp. Yeah, we actually had lunch together last week. She's got some great ideas for the Henderson account.  I'm looking forward to seeing what she can do.  Hopefully, she'll be able to take some of the workload off us.
+
+
+**Summary**
+
+The speakers discuss a new project, staffing issues, and the potential impact of a new marketing hire named Sarah on their workload. 
+
+",google/gemma-2-27b-it,178,86
+"[{'content': ""Please write a text of 100-150 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: withdraw money. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","I need to get some cash out, do you know if the ATM at the corner store is working?  It was down yesterday, remember? I tried to get money out this morning but it was still out of order. That's annoying, I really don't want to drive all the way to the bank. Yeah, it's such a pain, especially when you need cash in a hurry. Maybe try the one by the supermarket? I think it's always working. Okay, I'll give it a shot. Thanks. Hopefully, it works. I'm meeting Sarah for lunch and I promised to cover this time.
+
+**Summary**
+
+Two people discuss the status of ATMs at various locations, aiming to find one that is working so they can withdraw cash before meeting a friend named Sarah for lunch.
+
+
+
+",google/gemma-2-27b-it,169,87
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: ocean. Write a verbatim transcript of 350-400 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","The ocean is just so vast, isn't it. It's hard to wrap your head around how much of the Earth it covers. And to think, we've explored so little of it. I read somewhere that we know more about the surface of the moon than we do about the ocean floor. That's incredible.
+
+You're telling me. It's a whole other world down there. I saw this documentary about these deep-sea hydrothermal vents, they're like these underwater geysers that spew out superheated water. And there's all these bizarre creatures living around them, things that look like they're from another planet.
+
+It's amazing how life can adapt to such extreme environments. Makes you wonder what else is down there, lurking in the darkness. Maybe giant squid, or kraken, who knows.
+
+Seriously though, the ocean is crucial to our planet. It regulates the climate, provides food, and absorbs carbon dioxide. We really need to do more to protect it from pollution and overfishing.
+
+I agree, it's terrifying how much plastic ends up in the ocean. It's devastating for marine life. And then there's the problem of acidification, the ocean is becoming more acidic due to the absorption of carbon dioxide from the atmosphere.
+
+My friend works for an organization that's trying to clean up plastic from the Great Pacific garbage patch. It's a huge undertaking, but they're making progress.
+
+That's inspiring to hear. We all need to do our part, even small things like reducing our plastic consumption and supporting sustainable fishing practices.
+
+Did you hear about that new marine sanctuary they're establishing off the coast of California? It's a protected area where fishing is restricted, allowing marine life to recover.
+
+That's fantastic news. Hopefully, more areas will follow suit.
+
+We need to protect our oceans, not just for ourselves but for future generations.
+
+
+**Summary**
+
+The conversation centered around the vastness and importance of the ocean, highlighting concerns about pollution, overfishing, and the need for conservation efforts like the establishment of marine sanctuaries. 
+
+",google/gemma-2-27b-it,444,94
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: order business cards. Write a verbatim transcript of 250-300 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","We really need to get those business cards ordered ASAP. The conference is next month and we don't want to be caught without them. I spoke to three different printing companies and got some quotes. PrintPerfect seemed the most reasonable, their quality is good and they have a fast turnaround time. They can even do the embossing we were talking about.  Do you have the final design files? I think Sarah sent them over last week. Maybe we should loop her in on this call? 
+
+I think the embossed logo will make a big difference, it just looks more professional. Do we want to go with the matte or glossy finish? I'm leaning towards matte, it's a bit more modern. What do you think about the paper stock? We have a few options, from standard to premium. I wouldn't go for the cheapest one, it feels flimsy.  Let's go with the mid-range option, it's a good balance of quality and price.
+
+Okay, so PrintPerfect, embossed logo, matte finish, mid-range paper. Got it. Should we go with the standard size or the larger ones? The larger ones are more noticeable, but they might be a bit too big for some wallets. I think the standard size is fine, especially since we're going for a minimalist design.
+
+
+**Summary**
+
+The group is discussing the design and ordering of business cards from PrintPerfect for an upcoming conference. 
+
+
+
+",google/gemma-2-27b-it,299,96
+"[{'content': ""Please write a text of 250-300 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: parking permit. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","So I finally got that parking permit I was telling you about. It was a nightmare though, the line at the DMV was insane. I swear I was there for at least two hours. They really need to figure out a better system. Oh, and you know what else is crazy? The price. It's like double what it used to be. I don't understand how they can justify that increase. Anyway, at least I can finally park in the lot near my apartment without worrying about getting towed. Speaking of the apartment, did you hear about the new tenant moving in next door? Apparently, they have a dog, a big one. I hope it's not a barker. I'm already having trouble sleeping with all the noise from the construction across the street. Yeah, that new building is going up so fast. It's going to block my view of the park though, which is a bummer.  At least I have my parking spot secured. Did I tell you about the parking garage on Elm Street? They have monthly rates that are actually pretty reasonable, but it's a bit of a walk from my place. Maybe I should check it out. I just hate the idea of parking so far away, especially at night. It's not the safest neighborhood after dark. 
+
+
+**Summary**
+
+Two people discuss the hassle of obtaining a parking permit, lament the rising cost, and share concerns about noise from construction and a new neighbor's dog, with one person considering a parking garage on Elm Street.  
+
+",google/gemma-2-27b-it,316,87
+"[{'content': ""Please write a text of 100-150 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: study schedule. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","So I'm trying to figure out my study schedule for next semester. I've got that intro to psych class that meets Tuesdays and Thursdays at 10, and then organic chemistry which is always a beast, Mondays, Wednesdays and Fridays at 1.  I really want to make sure I have enough time for that, so maybe I should block out those afternoons for studying. Oh yeah, and Professor Lee's office hours are Tuesdays from 2 to 4, so I definitely need to keep that free.  What about you, what's your schedule looking like?  You have that 8 am philosophy class right? You're so disciplined for taking a class that early. I wish I could do that.  Maybe we could study together sometime, especially for psych.  It's supposed to be a tough class.
+
+**Summary**
+
+Two people discuss their upcoming semester schedules, mentioning specific classes, times, and a professor's office hours, and express interest in studying together. 
+
+
+
+",google/gemma-2-27b-it,208,87
+"[{'content': ""Please write a text of 350-400 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: report a protest. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","Yeah, did you hear about the protest yesterday? It was massive, apparently. Like, thousands of people down by the city hall. You know, the one on Elm Street? Yeah, that one. They were protesting the new housing development going up on Oak Avenue. People are saying it's going to displace a lot of families, especially older folks who have lived there for generations. Some say it's gentrification, pushing out the community for more expensive apartments. It was really intense, from what I heard. Chants, signs, the whole nine yards.  My friend went and said the police were there, but they seemed to be keeping their distance, mostly just observing. There were some speeches, too, from local activists and community leaders. Apparently, they're trying to organize a meeting with the mayor to discuss alternative plans. They want to see if there's a way to build the development without displacing so many people. It's a tough situation, you know? Progress is important, but not at the cost of pushing out long-time residents.  I think they're planning another protest next week, bigger this time. They want to get the attention of the city council, get them to listen to the community's concerns. It's good to see people standing up for what they believe in, even if it's tough.
+
+**Summary**
+
+
+The conversation discusses a protest against a new housing development on Oak Avenue in the city, with the protesters meeting at City Hall on Elm Street and planning another protest to gain the attention of the city council. 
+
+",google/gemma-2-27b-it,326,88
+"[{'content': ""Please write a text of 350-400 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: lose a purse. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","Oh my gosh, you won't believe what happened to me. I totally lost my purse. I was at the mall yesterday, just running some errands, and when I got home I realized it was gone. I frantically retraced my steps, checked all the stores I'd been in, but no luck. It's got everything in it, my wallet, my phone, my keys, everything. I'm so frustrated. I called the mall security, but they said they haven't found anything. I even checked with lost and found, nothing. I'm starting to think it's gone for good. I don't know what I'm going to do. I have to cancel my credit cards and get a new driver's license. This is such a hassle. Do you have any advice? Have you ever lost your purse before? I remember you telling me about that time you lost your wallet at the concert. Did you ever find it? Oh, that's right, you said you found it tucked in your car door. I wish it was that easy for me. This is just awful. I feel so disorganized and vulnerable without my purse. Maybe I should report it to the police, just in case. What if someone stole it? I'm so worried about identity theft. I really need to be more careful. I'm thinking about getting one of those crossbody bags that you wear across your body. They seem safer. 
+
+Maybe I'll go back to the mall tomorrow and ask around again. Maybe someone turned it in. I'm holding onto a sliver of hope. Fingers crossed.
+
+
+**Summary**
+
+A person recounts losing their purse at the mall and discusses the inconvenience and stress it has caused, while seeking advice from a listener who has experience with a similar situation. 
+
+",google/gemma-2-27b-it,375,88
+"[{'content': ""Please write a text of 350-400 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: the stock market. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","So, have you been watching the market lately It's been pretty wild, hasn't it I swear it feels like a roller coaster some days, up one minute, down the next.  Yeah, I know what you mean. I was thinking about putting some money in, but I'm so nervous about making the wrong move. My friend Sarah, she's been doing really well with day trading, but I don't know if I have the stomach for that kind of stress. I think she goes to one of those online seminars they have every week, you know, to learn about new strategies and stuff. Maybe I should look into that. You know, get some professional advice. I heard there's a new investment firm opening up downtown, they're supposed to be really good with beginners.  
+
+Maybe we could go check it out together. We could compare notes and see what they say. Plus, it wouldn't hurt to have a second opinion, right. Absolutely. I mean, I'm not looking to get rich quick or anything, just trying to make my money work for me a little bit. I've been reading about index funds, they seem like a pretty safe bet, but I'm not sure how to even start investing in them. It all seems so complicated. There are so many options, it's overwhelming.
+
+Exactly. Maybe that firm downtown could help us figure it out. We could go next week, after work maybe. Sounds like a plan. And hey, if we're lucky, maybe Sarah will give us some tips too. She owes me a lunch anyway. We can pick her brain about all this stuff.
+
+
+**Summary**
+
+Two people discuss the volatile stock market, considering seeking advice from a friend who is experienced with day trading and potentially visiting a new investment firm downtown for guidance. 
+
+",google/gemma-2-27b-it,382,88
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: fix a pipe. Write a verbatim transcript of 250-300 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","Alright so first things first, we need to figure out what kind of pipe we're dealing with. Is it copper, PVC, galvanized steel? That'll determine what kind of tools and materials we need. Yeah, and where's the leak? Is it under the sink, behind the toilet, or out in the yard somewhere?  Maybe it's just a loose connection, we might not even need to replace anything. If it's a major leak, we might want to call in a professional plumber.
+
+They'll have all the right equipment and expertise to handle it. I've got a guy, Bob, he's really good.  He fixed a leak in my basement last year, did a great job.  I think he's based out of Glendale, might be a bit of a drive depending on where you are. 
+
+But honestly, if it's just a small leak, you could probably tackle it yourself. There are tons of tutorials online, and most hardware stores have everything you need.
+
+You'll want to shut off the water supply first, obviously. Then you'll need to drain the pipes, that'll make it easier to work on. 
+
+Once you've got everything dry, you can start to assess the damage. If it's just a loose connection, you can tighten it up with a wrench. If there's a hole, you'll need to patch it with epoxy or replace the section of pipe altogether.
+
+It's not rocket science, just takes a bit of patience and the right tools.
+
+**Summary**
+
+A group of people discuss the best way to fix a leaky pipe, considering different materials, leak locations, and the possibility of calling a professional plumber named Bob from Glendale. 
+
+
+
+",google/gemma-2-27b-it,368,96
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: package delivery. Write a verbatim transcript of 350-400 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","...you know, the whole drone delivery thing is really starting to take off. There are even companies now that specialize in it, not just Amazon anymore. I read an article about a startup in California that's using drones to deliver groceries to rural communities.
+
+It's amazing how technology is changing everything. Remember when we used to have to wait weeks for packages to arrive? Now it's like, next-day or even same-day delivery is standard.
+
+I still prefer going to the store myself, though. I like to pick out my own produce and see what's fresh. Plus, I don't trust those self-driving trucks.
+
+Have you seen those videos online where they malfunction? It's scary stuff. I'd rather stick to human drivers, at least for now.
+
+Speaking of drivers, I had a terrible experience with a delivery guy last week. He left my package at the wrong address again. This is the third time it's happened with the same company.
+
+I called customer service, but they were no help. They just said they'd investigate.
+
+Honestly, it's just frustrating. I don't understand why they can't get it right. I'm thinking about switching to a different delivery service.
+
+Maybe one of those subscription boxes, you know, where they deliver curated items to your door every month.
+
+There are so many options these days, it's overwhelming.
+
+I've been meaning to try that meal kit service, Blue Apron.
+
+They deliver all the ingredients pre-portioned and ready to cook.
+
+It sounds like a good way to save time and avoid grocery shopping.
+
+Plus, they have lots of different meal options, so there's something for everyone.
+
+I might have to give it a try.
+
+Maybe we should all get together and do a Blue Apron night.
+
+We could each order a different meal and compare notes.
+
+That sounds like fun.
+
+...
+
+**Summary:**
+
+A group discusses the evolution of package delivery, highlighting the rise of drone delivery, self-driving trucks, and subscription boxes while expressing concerns about delivery service reliability and sharing ideas for meal kit services like Blue Apron. 
+
+
+
+",google/gemma-2-27b-it,459,95
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: the psychic. Write a verbatim transcript of 350-400 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","There's a new psychic in town, Madame Evangeline, they say she's the real deal. Apparently, she's set up shop in that old bookstore on Elm Street, the one that closed down last year. I heard she can talk to the dead, tell your future, the whole nine yards.  My cousin went to see her last week, she swears Evangeline knew things she couldn't possibly know. Said she even saw her grandmother who passed away five years ago. My cousin was a skeptic too, but now she's a believer.
+
+I don't know, it all seems a bit far-fetched to me. There are always people looking to make a quick buck off the gullible. Remember that fake medium who came through town a few years back, the one who claimed to be channeling Elvis? Turned out he was just a con artist.
+
+Maybe, but this is different. My cousin wouldn't lie about something like this. She's always been very practical, very grounded. She said Evangeline was different, there was a real sense of peace about her, like she was truly gifted.  
+
+I guess I could be persuaded to check it out. I've always been curious about these things, but I'm not sure I believe in it all.
+
+It's worth a shot, isn't it?  What's the harm in getting a reading? It could be fun, even if you don't believe in it.
+
+You know, I heard she's booked solid for weeks. Apparently, word of mouth is spreading fast.
+
+Well, if she's that good, maybe she'll be worth the wait.
+
+I wonder what she'd say about my love life.
+
+Or my career.
+
+
+**Summary**
+
+A group of people discuss the arrival of a new psychic named Madame Evangeline, who has set up shop in a former bookstore on Elm Street and is gaining popularity due to her supposed abilities and a testimonial from one of their own.
+
+
+
+",google/gemma-2-27b-it,419,95
+"[{'content': ""Please write a text of 250-300 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: fitness training. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","So I've been thinking about finally joining that gym downtown, you know, the one with the pool and all the fancy equipment. I hear they have some great personal trainers too, though I'm not sure if I'm ready to commit to that yet. Maybe I should just start with some group classes, see how I like it. What do you think? Have you ever tried that Zumba class they offer? I heard it's a lot of fun.  You're right, I should probably ease into it. I haven't exercised regularly in ages. Remember back in college, we used to run together all the time? We were in such good shape then. I miss those days. I haven't been on a run since I moved here, actually. Maybe we could start doing that again, go for a run in the park on weekends. That sounds fun, and it's free. Plus, it'd be nice to catch up. We could even invite Sarah, she mentioned wanting to get back into running too. Yeah, that's a great idea. Maybe we can all meet up this Saturday morning, say around 9 am? Perfect. I'll text Sarah and see what she thinks.
+
+
+**Summary**
+
+Three friends discuss joining a gym downtown, taking Zumba classes, and planning to go running together in the park with Sarah on Saturday morning. 
+
+",google/gemma-2-27b-it,286,87
+"[{'content': ""Please write a text of 250-300 words that could pass as a transcription of an everyday conversation between two or more people on the topic of: poor Biggie. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","Man, it's crazy to think about how much Biggie could have accomplished if he was still around. You know, he was only 24 when he died. That's insane. He had so much potential, so much talent. I remember seeing him perform live back in '95, it was electric. The whole crowd was going wild, he had everyone hypnotized. It was unreal. I still listen to his music all the time, it just never gets old. Ready to Die is a classic, without a doubt. Did you hear about that documentary they're making about him? They're finally gonna tell his story properly. It's about time, because there's so much more to Biggie than just the Notorious B.I.G. persona. He was a complex guy, you know. He had a lot of pain and struggle in his life, but he turned it into art. It's sad he didn't get to see his daughter grow up, though. He would have been an amazing dad. I wonder what he'd be doing now if he was still alive. Probably still making music, maybe even acting. He had that charisma, you know. People were drawn to him. It's a real loss for hip hop, and for the world.
+
+**Summary**
+
+The conversation discusses the lasting impact of the late rapper Notorious B.I.G., reminiscing about his performances, music, and the upcoming documentary about his life. 
+
+
+
+",google/gemma-2-27b-it,310,88
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: training. Write a verbatim transcript of 250-300 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","...training program is just not hitting the mark. It's too theoretical, doesn't offer enough hands-on experience. They need to learn by doing, not just listening to lectures. Remember what happened with the new marketing team last year? They went through the same program and were completely lost when they had to actually implement a campaign. We need something more practical, maybe some sort of mentorship program where they can shadow experienced employees. And definitely more workshops, not just these generic online modules. We should be investing in our employees, making sure they feel supported and equipped to succeed. You know, maybe we could even bring in some external trainers, experts in their fields. There's a company I heard about, Catalyst, they do really innovative training programs. They even tailor them to the specific needs of your organization.
+
+It's worth looking into, at least. We can't afford to keep losing talented people because they feel unprepared for their roles. And the onboarding process, it's just too rushed. New hires are thrown in the deep end without enough support. Maybe we should have a buddy system, someone to guide them through the first few weeks. We need to create a culture of continuous learning here, where employees feel encouraged to develop their skills. This isn't just about ticking boxes, it's about investing in the future of our company.
+
+**Summary**
+
+The group discussed the need for a more practical and effective training program at their company, mentioning past failures, suggesting external trainers like Catalyst, and proposing improvements such as mentorship, workshops, and a revised onboarding process.
+
+
+
+",google/gemma-2-27b-it,326,94
+"[{'content': ""Imagine you walked into a room where a group of people were in the middle of having a conversation on the topic of: travel. Write a verbatim transcript of 350-400 words of what they said. Do not indicate speaker turns. Do not state who's speaking. Do not use quotation marks. Then, under the headline '**Summary**' write one sentence that summarizes the transcription, emphasizing any meetings, persons or places mentioned in the conversation."", 'role': 'user'}]","I've always said, if you can travel anywhere in the world, you have to go to Japan. The culture is so unique, the food is amazing, and the people are incredibly polite. Plus, the scenery is breathtaking. I went hiking in the Japanese Alps last year, and it was like something out of a fairytale.
+
+Oh, you've been to Japan? I'd love to hear about it. I'm planning a trip there next spring. Any tips?
+
+Definitely check out Kyoto. It's a beautiful ancient city with so many temples and shrines. And the cherry blossoms in spring are spectacular.
+
+I hear the bullet trains are incredible.
+
+They really are. So fast and efficient. It's the best way to travel around the country.
+
+Speaking of trains, I took the Trans-Siberian Railway a few years ago, and it was an unforgettable experience. It's such a long journey, but it's amazing to see all the different landscapes and cultures you pass through.
+
+That sounds incredible. How long did it take you?
+
+About two weeks. It was quite a commitment, but worth it.
+
+I've always wanted to do something like that, maybe the Orient Express? That would be so glamorous.
+
+It would be! I think it's a bit pricey, though.
+
+Well, traveling doesn't have to be expensive. I backpacked through Southeast Asia for a few months last year, and it was one of the most amazing experiences of my life.
+
+Southeast Asia is on my list too. Did you go to Thailand?
+
+I did. It was incredible. The beaches are beautiful, the food is delicious, and the people are so friendly.
+
+You know, I've always wanted to go to South America. I'm fascinated by the Inca Trail and Machu Picchu.
+
+It's incredible. I hiked it a few years ago. The scenery is breathtaking, and the history is fascinating.
+
+I'd love to go there someday. It's definitely on my bucket list.
+
+Well, wherever you decide to go, just make sure to embrace the culture, try new things, and make the most of it.
+
+That's great advice. Thanks everyone, this has been so inspiring.
+
+**Summary**
+
+The group discussed their travel experiences and aspirations, mentioning destinations such as Japan, Kyoto, the Japanese Alps, the Trans-Siberian Railway, Southeast Asia, Thailand, South America, the Inca Trail, and Machu Picchu. 
+
+
+
+",google/gemma-2-27b-it,519,94

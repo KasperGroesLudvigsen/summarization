@@ -13,12 +13,21 @@ from datasets import load_dataset, concatenate_datasets
 from copy import copy
 import torch 
 import os
+from get_topics import get_topics
+import random 
+
+topics = get_topics()
 
 def make_prompt(example: dict) -> dict:
+    topic = random.choice(topics)
+    #prompt = f"""f{example["instruction"]}: **TEXT:** {example["text"]}"""
 
-    prompt = f"""f{example["instruction"]}: **TEXT:** {example["text"]}"""
-
+    prompt = f"Please write a text that could pass as a transcription of an everyday conversation between two or more people on the topic of: {topic}. Do not indicate speaker turns and do not use quotation marks. Just write the transcription as on long text. Then, write one sentence that summarizes the transcription, emphasizing any meeting, persons or places mentioned in the conversation"
     return {"prompt": [{"role": "user", "content": prompt}]}
+
+
+
+print(random.choice(topics))
 
 token = os.getenv("HF_TOKEN") 
 
