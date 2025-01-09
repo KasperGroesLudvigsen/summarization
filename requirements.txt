@@ -1,0 +1,6 @@
+unsloth
+trl
+transformers
+torch
+datasets
+codecarbon
