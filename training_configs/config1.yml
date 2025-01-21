@@ -1,0 +1,24 @@
+# baseline params that will be used in several runs
+
+configs:
+
+  global_config:
+    model_id: "HuggingFaceTB/SmolLM2-135M"
+
+  lora_config:
+    r: 16
+    lora_alpha: 16
+    use_rslora: True
+
+  sft_config:
+    learning_rate: 3e-4 
+    epochs: 1
+    optimizer: "adamw_8bit"
+    warmup_steps: 100
+    weight_decay: 0.01
+    lr_scheduler_type: "linear"
+    seed: 90201
+    dataset_text_field: "text"
+
+
+
