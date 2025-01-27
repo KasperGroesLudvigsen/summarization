@@ -22,6 +22,8 @@ if __name__ == "__main__":
             
         configs.append(config)
 
+    print(configs)
+
     for config in configs:
 
         try:
