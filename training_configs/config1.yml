@@ -21,6 +21,7 @@ sft_config:
   lr_scheduler_type: "linear"
   seed: 90201
   dataset_text_field: "text"
+  epochs: 1
 
 
 

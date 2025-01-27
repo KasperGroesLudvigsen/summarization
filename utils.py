@@ -2,7 +2,7 @@ from datasets import Dataset
 
 def formatting_prompts_func(samples: Dataset, tokenizer, col_to_process: str="messages"):
     """
-    Create a new column called "text" by applying the tokenizer's chat template to `col_to_process` 
+    Create a new column called "text" by applying the tokenizer's chat template to `col_to_process`
     Args:
 
         samples: A Huggingface-style dataset
