@@ -247,7 +247,7 @@ def train(config):
             seed = sft_config["seed"],
             output_dir = "outputs",
             report_to="wandb",
-            run_name = f"Baseline-{model_id.split("/")[-1]}",
+            run_name = f"Baseline-{model_id.split('/')[-1]}",
             save_steps=10000
         ),
     )
