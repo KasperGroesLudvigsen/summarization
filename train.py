@@ -11,6 +11,18 @@ import wandb
 from trl import SFTTrainer
 from transformers import TrainingArguments
 from unsloth import is_bfloat16_supported
+from dotenv import load_dotenv
+
+load_dotenv()
+
+token = os.getenv("HF_TOKEN")
+
+wandb_key = os.getenv("WANDB_KEY")
+
+if wandb_key:
+    print("\n WANDB KEY SET SUCCESSFULLY\n")
+else:
+    print("\n ERROR: WANDB KEY **NOT** SET SUCCESSFULLY\n")
 
 
 def train(config):    
@@ -199,7 +211,7 @@ def train(config):
         loftq_config = None, # And LoftQ
     )
 
-    wandb.login()
+    wandb.login(key=wandb_key)
     os.environ["WANDB_PROJECT"]= wandb_config["wandb_project"] #"llm_dialog_summarizer"
     os.environ["WANDB_LOG_MODEL"] = "end"
 
