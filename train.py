@@ -252,6 +252,8 @@ def train(config):
         ),
     )
 
+    print("\nBEGINNING TRAINING\n")
+
     trainer_stats = trainer.train()
 
     print(f"\nTrainer stats:\n {trainer_stats}\n")
