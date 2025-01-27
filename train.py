@@ -191,6 +191,8 @@ def train(config):
     # Set up LoRA
     #####################
 
+    print("\nSETTING UP LORA\n")
+
     rank = lora_config["r"]
     target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
                     "gate_proj", "up_proj", "down_proj"]
@@ -211,9 +213,13 @@ def train(config):
         loftq_config = None, # And LoftQ
     )
 
+    print("\nGOING TO ATTEMPT TO LOG INTO WANDB\n")
     wandb.login(key=wandb_key)
     os.environ["WANDB_PROJECT"]= wandb_config["wandb_project"] #"llm_dialog_summarizer"
     os.environ["WANDB_LOG_MODEL"] = "end"
+
+
+    print("\nINSTANTIATING SFTTRAINER\n")
 
     trainer = SFTTrainer(
         model = model,

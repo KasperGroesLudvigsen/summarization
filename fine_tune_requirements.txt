@@ -5,3 +5,4 @@ trl
 wandb
 transformers
 huggingface_hub
+dotenv
