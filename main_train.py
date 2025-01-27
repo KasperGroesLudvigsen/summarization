@@ -5,7 +5,7 @@ import yaml
 
 if __name__ == "__main__":
 
-    config_dir = "training_configs"
+    config_dir = "summarization-master/training_configs"
 
     config_files = os.listdir(config_dir)
     
