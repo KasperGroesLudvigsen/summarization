@@ -90,6 +90,10 @@ def train(config):
             smoltalk["test"]
         ]
         )
+    
+    eval_dataset = eval_dataset.shuffle(seed=90201)
+
+    eval_dataset = eval_dataset.select(range(5000))
 
     """# LoRA fine tuning
 
@@ -231,7 +235,7 @@ def train(config):
         dataset_num_proc = 4, # Number of processes to use for processing the dataset. Only used when packing = False
         packing = False, # Can make training 5x faster for short sequences.
         eval_strategy = "steps",
-        eval_steps = 100,
+        eval_steps = 2000, # this should probably be much higher or eval datset should be significantly smaller
         args = TrainingArguments(
             per_device_train_batch_size = 8,
             gradient_accumulation_steps = 2,
