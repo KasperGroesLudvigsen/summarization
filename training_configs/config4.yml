@@ -1,5 +1,5 @@
 wandb_config:
-  wandb_project: "llm_dialog_summarizer"
+  wandb_project: "llm_dialog_summarizer_faster"
   run_name: SmolLM2-135M-Instruct-baseline
 
 model_config:
