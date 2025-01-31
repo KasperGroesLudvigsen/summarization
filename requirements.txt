@@ -1,6 +1,8 @@
-unsloth
-trl
-transformers
 torch
 datasets
-codecarbon
+unsloth
+trl
+wandb
+transformers
+huggingface_hub
+dotenv
